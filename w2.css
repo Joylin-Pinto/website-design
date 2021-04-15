@@ -1,0 +1,163 @@
+.container{
+	display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0.2fr 0.1fr 1fr 0.1fr 0.1fr 0.1fr;
+	grid-column-gap: 0.2rem;
+	grid-row-gap: 0.2rem;
+	grid-template-areas: "nav       nav        nav        nav "
+						 "content1  sub3       content2   sub4"
+						 "content1  content3   content2   content4"
+						 "sub1      content3   sub2       content4"
+						 "bottom    insta      fb         link"
+						 "footer    footer     footer     footer"
+    
+    }
+
+nav{                                      
+	grid-area: nav; 
+	background-color: rgb(165, 249, 199);
+	text-align: center;
+	font-size: 50px;
+	font-family: "Brush script MT" , crusive;
+
+}
+#sub3{
+	grid-area: sub3;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	padding-top: 8px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: rgba(19, 191, 199 ,0.3);
+}
+#content1{
+	grid-area: content1;
+	background-image: url(casualwear.jpg);
+	background-size: cover;
+}
+#content2{
+	grid-area: content2;
+	background-image: url(sidebar1.jpg);
+	background-size: cover;
+}
+#content3{
+	grid-area: content3;
+	background-image: url(sesonalwear.jpg);
+	background-size: cover;
+}
+#content4{
+	grid-area: content4;
+	background-image: url(formalwear.jpg);
+	background-size: cover;
+}
+
+#sub1{
+	grid-area: sub1;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	padding-top: 8px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: rgba(19, 191, 199 ,0.3);
+}
+#sub2{
+	grid-area: sub2;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	padding-top: 8px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: rgba(19, 191, 199 ,0.3);
+}
+#sub4{
+	grid-area: sub4;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	padding-top: 8px;
+	border-style: solid;
+	border-width: 3px;
+	background-color: rgba(19, 191, 199 ,0.3);
+	
+}
+#bottom{
+	grid-area: bottom;
+	background-color: rgb(112, 232, 177);
+	border-style: solid;
+	border-width: 0px 0px 0px 5px;
+	text-align: right;
+	padding: 8px 80px 0px 0px;
+	font-size: 20px;
+
+}
+#insta{
+	grid-area: insta;
+	background-image: url(footericon.jpg);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: right;
+	font-size: 20px;
+	font-family: "Brush script MT" , crusive;
+	padding-top: 8px;
+	padding-right: 65px;
+}
+#fb{
+	grid-area: fb;
+	background-image: url(fb.jpg);
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: right;
+	font-size: 20px;
+	font-family: "Brush script MT" , crusive;
+	padding-top: 8px;
+	padding-right: 35px;
+}
+#link{
+	grid-area: link;
+	background-image: url(link.png);
+	background-size: 30px 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: right;
+	font-size: 20px;
+	font-family: "Brush script MT" , crusive;
+	padding-top: 9px;
+	padding-right: 75px;
+
+}
+footer{
+	grid-area: footer;
+	background-color: rgba(19, 191, 199 ,0.3);
+	font-size: 20px;
+	border-style: solid;
+	border-width: 3px 0px 3px 0px;
+}
+#bars{
+	font-size: 40px;
+	float: left;
+	padding: 8px 0px 0px 15px;
+}
+#sp{
+	float: right;
+	padding: 10px 15px 0px 0px;
+}
+#se{
+	float: right;
+	padding: 10px 30px 0px 0px;
+}
+a:link,a:visited{
+	color: black;
+	text-decoration: none;
+
+}
+a:hover,a:active{
+	color: blue;
+	text-decoration: all;
+}
+
